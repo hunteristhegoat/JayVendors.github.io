@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resell Hub | Vendors & Products</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f0f14;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+    a { color: inherit; text-decoration: none; }
+    header {
+      background: linear-gradient(135deg, #6d28d9, #2563eb);
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+    header p { opacity: 0.9; }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+      background: #14141d;
+      position: sticky;
+      top: 0;
+    }
+    nav a:hover { color: #93c5fd; }
+
+    section { padding: 60px 20px; max-width: 1100px; margin: auto; }
+    .section-title { font-size: 2rem; margin-bottom: 20px; text-align: center; }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #181826;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    }
+    .card h3 { margin-bottom: 10px; }
+    .price { color: #86efac; font-weight: bold; margin: 10px 0; }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 18px;
+      border-radius: 8px;
+      background: #2563eb;
+      margin-top: 10px;
+      transition: 0.2s;
+    }
+    .btn:hover { background: #1d4ed8; }
+
+    .vendor {
+      border-left: 4px solid #7c3aed;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    footer {
+      background: #14141d;
+      text-align: center;
+      padding: 20px;
+      opacity: 0.7;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Resell Hub</h1>
+  <p>Trusted Vendors • High‑Demand Products • Fast Deals</p>
+</header>
+
+<nav>
+  <a href="#products">Products</a>
+  <a href="#vendors">Vendors</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="products">
+  <h2 class="section-title">🔥 Hot Products</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>AirPods Pro</h3>
+      <p>High quality, sealed, fast shipping.</p>
+      <div class="price">DM for Price</div>
+      <a class="btn" href="#contact">Buy Now</a>
+    </div>
+    <div class="card">
+      <h3>AirPods Max</h3>
+      <p>Popular resell item with strong margins.</p>
+      <div class="price">DM for Price</div>
+      <a class="btn" href="#contact">Buy Now</a>
+    </div>
+    <div class="card">
+      <h3>Electronics Bundles</h3>
+      <p>Perfect for bulk resellers.</p>
+      <div class="price">Bulk Pricing</div>
+      <a class="btn" href="#contact">Inquire</a>
+    </div>
+  </div>
+</section>
+
+<section id="vendors">
+  <h2 class="section-title">🤝 Vendors</h2>
+  <div class="cards">
+    <div class="card vendor">
+      <h3>Verified Vendor</h3>
+      <p>Consistent supply, fast response, trusted by resellers.</p>
+      <a class="btn" href="#contact">Contact Vendor</a>
+    </div>
+    <div class="card vendor">
+      <h3>Bulk Supplier</h3>
+      <p>Best for long‑term reselling & volume discounts.</p>
+      <a class="btn" href="#contact">Apply</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2 class="section-title">📲 Contact</h2>
+  <p>Text or DM for prices, vendors, and bulk deals.</p>
+  <br />
+  <a class="btn" href="mailto:your@email.com">Email Me</a>
+  <a class="btn" href="#">Discord / Instagram</a>
+</section>
+
+<footer>
+  <p>© 2026 Resell Hub. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
